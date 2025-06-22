@@ -22,7 +22,7 @@ cloudinaryConnect()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://xyz-frontend-c8uq.onrender.com',
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
 }));
