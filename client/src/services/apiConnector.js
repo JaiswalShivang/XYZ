@@ -1,7 +1,7 @@
 import axios from "axios"
 
 export const axiosInstance = axios.create({
-  baseURL: 'http://localhost:4000/api',
+  baseURL: 'https://xyz-terb.onrender.com',
 })
 
 // Add request interceptor to include auth token
